@@ -27,7 +27,7 @@ for hour_data in weather_slice:
         will_rain = True
 
 if will_rain:
-    rain = "It's gonna rain bitch"
+    rain = "Rain Incoming"
     client = Client(account_sid, auth_token)
 
     message = client.messages \
